@@ -5,11 +5,11 @@ body {
 }
 
 h1 {
-    line-height: 10rem;
+    margin: 30px 0;
 }
 
 h2, h3, h4 {
-    line-height: 3rem;
+    margin: 15px 0;
     color: #333;
 }
 
