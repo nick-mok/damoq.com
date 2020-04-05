@@ -1,0 +1,26 @@
+@import url('bootstrap.min.css');
+
+body {
+    font-size: 1.2rem;
+}
+
+h1 {
+    line-height: 10rem;
+}
+
+h2, h3, h4 {
+    line-height: 3rem;
+    color: #333;
+}
+
+body p {
+    color: #444;
+}
+
+#header {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#main {
+    min-height: 500px;
+}
