@@ -11,8 +11,13 @@ export const getBlogSlugs = async () => {
     .map(filename => filename.split(".").slice(0, -1).join("."));
 }
 
-export const getFriendlyDate = (date) => {
-    const my_date = new Date(date);
+export const getFriendlyDate = (date_str) => {
+    const date = new Date(date_str);
     const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-    return MONTHS[my_date.getMonth()] + " " + my_date.getDate() + ", " + my_date.getFullYear();
+    return MONTHS[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
+}
+
+
+export const testFunction = () => {
+    return true;
 }

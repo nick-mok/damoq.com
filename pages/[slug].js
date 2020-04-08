@@ -44,8 +44,10 @@ export const getStaticProps = async (context) => {
     const {slug} = context.params;
     const markdownWithMetadata = await readFile(path.join('posts', slug + '.md'));
     const content =  markdownWithMetadata.toString();
+    
+    const parsedMarkdown = await matter(content.toString());
 
-    const parsedMarkdown = await matter(content);
+    parsedMarkdown.data.date = parsedMarkdown.data.date.toString();
     const articleHtml = await marked(parsedMarkdown.content);
 
     return {
