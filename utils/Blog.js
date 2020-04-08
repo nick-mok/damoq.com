@@ -16,8 +16,3 @@ export const getFriendlyDate = (date_str) => {
     const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     return MONTHS[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear();
 }
-
-
-export const testFunction = () => {
-    return true;
-}
