@@ -3,7 +3,7 @@ import Link from 'next/link';
 import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
-import { getBlogSlugs } from '../utils/Blog';
+import { getBlogSlugs, getFriendlyDate } from '../utils/Blog';
 import fs from 'fs';
 const util = require('util');
 const readFile = util.promisify(fs.readFile);
@@ -16,7 +16,7 @@ const Post = ({frontmatter, content}) => {
         </Link>
         <h1 className="text-center ">{frontmatter.title}</h1>
         <p className="font-italic small">
-            {frontmatter.date}
+            {getFriendlyDate(frontmatter.date)}
         </p>
         <div dangerouslySetInnerHTML={{__html: content}}>
         </div>
