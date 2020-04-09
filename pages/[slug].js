@@ -5,10 +5,16 @@ import matter from 'gray-matter';
 import marked from 'marked';
 import { getBlogSlugs, getFriendlyDate } from '../utils/Blog';
 import fs from 'fs';
+<<<<<<< HEAD
 const var_dump = require('var_dump');
 
 const util = require('util');
 const readFile = util.promisify(fs.readFile);
+=======
+
+const var_dump = require('var_dump')
+
+>>>>>>> redo-post-load
 
 const Post = ({frontmatter, content}) => {
     console.log(typeof frontmatter.date);
@@ -45,20 +51,17 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const {slug} = context.params;
-    const markdownWithMetadata = await readFile(path.join('posts', slug + '.md'));
-    const content =  markdownWithMetadata;
+    const file_contents = fs.readFileSync(path.join('posts', slug + '.md'), 'utf8');
+    const { data, content } = matter(file_contents);
     
-    const parsedMarkdown = await matter(content);
-    // const the_date = new Date(parsedMarkdown.data.date);
-    // console.log(the_date);
-
-    parsedMarkdown.data.date = JSON.stringify(parsedMarkdown.data.date);
-    const articleHtml = await marked(parsedMarkdown.content);
-
+    // Let's make sure all of the frontmatter keys are strings
+    const frontmatter = {};
+    Object.keys(data).forEach(e => frontmatter[e] = data[e].toString());
+   
     return {
         props: {
-            frontmatter: parsedMarkdown.data,
-            content: articleHtml, 
+            frontmatter: frontmatter,
+            content: marked(content), 
         }
     };
 };
