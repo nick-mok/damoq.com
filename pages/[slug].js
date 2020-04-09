@@ -5,16 +5,8 @@ import matter from 'gray-matter';
 import marked from 'marked';
 import { getBlogSlugs, getFriendlyDate } from '../utils/Blog';
 import fs from 'fs';
-<<<<<<< HEAD
-const var_dump = require('var_dump');
-
-const util = require('util');
-const readFile = util.promisify(fs.readFile);
-=======
 
 const var_dump = require('var_dump')
-
->>>>>>> redo-post-load
 
 const Post = ({frontmatter, content}) => {
     console.log(typeof frontmatter.date);
