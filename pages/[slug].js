@@ -5,10 +5,13 @@ import matter from 'gray-matter';
 import marked from 'marked';
 import { getBlogSlugs, getFriendlyDate } from '../utils/Blog';
 import fs from 'fs';
+const var_dump = require('var_dump');
+
 const util = require('util');
 const readFile = util.promisify(fs.readFile);
 
 const Post = ({frontmatter, content}) => {
+    console.log(typeof frontmatter.date);
     return (
     <Layout pageTitle={frontmatter.title}>
         <Link href="/blog">
@@ -43,11 +46,13 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
     const {slug} = context.params;
     const markdownWithMetadata = await readFile(path.join('posts', slug + '.md'));
-    const content =  markdownWithMetadata.toString();
+    const content =  markdownWithMetadata;
     
-    const parsedMarkdown = await matter(content.toString());
+    const parsedMarkdown = await matter(content);
+    // const the_date = new Date(parsedMarkdown.data.date);
+    // console.log(the_date);
 
-    parsedMarkdown.data.date = parsedMarkdown.data.date.toString();
+    parsedMarkdown.data.date = JSON.stringify(parsedMarkdown.data.date);
     const articleHtml = await marked(parsedMarkdown.content);
 
     return {
