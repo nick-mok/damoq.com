@@ -9,7 +9,6 @@ const Blog = ({posts}) => (
 );
 
 const BlogContent = ({posts}) => (
-    console.log(posts),
     <>
         <h1 className='h3 text-primary mb-4'>Blog</h1>
         { posts.length

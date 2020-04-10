@@ -3,13 +3,12 @@ import Link from 'next/link';
 import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
-import { getBlogSlugs, getFriendlyDate } from '../utils/Blog';
+import { getBlogSlugs } from '../utils/Blog';
 import fs from 'fs';
 
 const var_dump = require('var_dump')
 
 const Post = ({frontmatter, content}) => {
-    console.log(typeof frontmatter.date);
     return (
     <Layout pageTitle={frontmatter.title}>
         <Link href="/blog">
@@ -17,7 +16,7 @@ const Post = ({frontmatter, content}) => {
         </Link>
         <h1 className="text-center ">{frontmatter.title}</h1>
         <p className="font-italic small">
-            {getFriendlyDate(frontmatter.date)}
+            {frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{__html: content}}>
         </div>

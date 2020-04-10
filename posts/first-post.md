@@ -1,6 +1,6 @@
 ---
 title: Welcome to my blog!
-date: '2020-04-05'
+date: 2020-04-05T04:48:09.156Z
 ---
 I'm Nick and this is just my little corner on the internet. I'm a web developer currently expanding my skills in frontend development, hopefully with some fun projects to share soon.
 
