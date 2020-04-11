@@ -1,4 +1,5 @@
 import Layout from '../components/MyLayout';
+import PostDate from '../components/PostDate'
 import Link from 'next/link';
 import path from 'path';
 import matter from 'gray-matter';
@@ -16,7 +17,7 @@ const Post = ({frontmatter, content}) => {
         </Link>
         <h1 className="text-center ">{frontmatter.title}</h1>
         <p className="font-italic small">
-            {frontmatter.date}
+            <PostDate dateString={frontmatter.date}/>
         </p>
         <div dangerouslySetInnerHTML={{__html: content}}>
         </div>
@@ -47,7 +48,11 @@ export const getStaticProps = async (context) => {
     
     // Let's make sure all of the frontmatter keys are strings
     const frontmatter = {};
-    Object.keys(data).forEach(e => frontmatter[e] = data[e].toString());
+    Object.keys(data).forEach(e => {
+        if (e.includes('date')) return frontmatter[e] = new Date(data[e]).toISOString();
+        return frontmatter[e] = data[e].toString();
+    });
+
    
     return {
         props: {
