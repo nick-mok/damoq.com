@@ -46,10 +46,8 @@ export const getStaticProps = async (context) => {
     const file_contents = fs.readFileSync(path.join('posts', slug + '.md'), 'utf8');
     const { data, content } = matter(file_contents);
     
-    // Let's make sure all of the frontmatter keys are strings
     const frontmatter = {};
     Object.keys(data).forEach(e => {
-        // console.log('field: ' + e + ' testing if is date: ' + (data[e] instanceof Date));
         if (data[e] instanceof Date) return frontmatter[e] = data[e].toISOString();
         return frontmatter[e] = data[e];
     });
