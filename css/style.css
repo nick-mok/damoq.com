@@ -24,3 +24,7 @@ body p {
 #main {
     min-height: 500px;
 }
+
+.slug-field {
+    width: 50%;
+}
