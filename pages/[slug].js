@@ -49,8 +49,9 @@ export const getStaticProps = async (context) => {
     // Let's make sure all of the frontmatter keys are strings
     const frontmatter = {};
     Object.keys(data).forEach(e => {
-        if (e.includes('date')) return frontmatter[e] = new Date(data[e]).toISOString();
-        return frontmatter[e] = data[e].toString();
+        // console.log('field: ' + e + ' testing if is date: ' + (data[e] instanceof Date));
+        if (data[e] instanceof Date) return frontmatter[e] = data[e].toISOString();
+        return frontmatter[e] = data[e];
     });
 
    
