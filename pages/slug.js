@@ -14,7 +14,6 @@ export const Slug = (props) => {
     return (
         <Layout pageTitle="Slugpro">
             <h1>Slug me</h1>
-            <p className="font-italic">For my friends who are still naming files manually :P</p>
             <p>Just start typing...</p>
             <div>
                 <input type="text" className="slug-field" onChange={handleChange} placeholder="My Checklist: A guide to not losing your marbles"/>
