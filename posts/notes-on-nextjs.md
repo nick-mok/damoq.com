@@ -8,11 +8,7 @@ Of course, with any new framework, not everything that is relevant to you or you
 
 This is an example: 
 
->
->
 > [https://github.com/zeit/next.js/issues/9520 ](https://github.com/zeit/next.js/issues/9520)
->
->
 
 One user has reported and issue as not being able to access an api route after the Next app is deployed to Netlify (Static Site hosting with serverless functions). Of course, it was working for the user locally as it was a local server. 
 
@@ -20,7 +16,7 @@ One of the developers of Next did quickly respond to the issue saying this is wh
 
 This is the kind of stuff that I run into and can definitely halt my workflow, the can or can't I's aren't 100% confirmed when picking up a framework. But I guess you can't learn without testing... And that's what I'm going to be doing today. 
 
-I've created this blog in NextJS and I'm wanting to test **`getStaticPaths`** with **`fallback`**` `set to **`true` **and the behaviour when a path which is not already built is accessed. 
+I've created this blog in NextJS and I'm wanting to test `getStaticPaths` with `fallback`  set to `true` and the behaviour when a path which is not already built is accessed. 
 
 As per the below article and documentation
 
