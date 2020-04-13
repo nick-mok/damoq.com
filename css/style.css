@@ -29,3 +29,15 @@ body p {
     width: 50%;
     padding: 10px;
 }
+
+#main blockquote {
+    padding: 20px 30px;
+    margin: 2rem 0;
+    font-style: italic;
+    background: #f1f1f1;
+    overflow-x: auto;
+}
+
+#main blockquote p {
+    margin-bottom: 0rem !important;
+}
