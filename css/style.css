@@ -32,8 +32,10 @@ body p {
 
 #main blockquote {
     padding: 20px 30px;
+    margin: 2rem 0;
     font-style: italic;
     background: #f1f1f1;
+    overflow-x: auto;
 }
 
 #main blockquote p {
