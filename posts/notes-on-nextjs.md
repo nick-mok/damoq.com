@@ -39,3 +39,95 @@ They do state:
 And if it needs to run NextJS in the background... might not be possible in a static environment, but I can't be sure. There isn't much information around when or how this gets called. 
 
 Let's see how I go!
+
+\--- **UPDATE: 1PM** ---
+
+I managed to test this one, and can confirm that fallback: true doesn't apply when your server can only statically generate pages. 
+
+I created a movies single and l[isting page](https://www.damoq.com/movies) where I use TMDB to pull movies and use their id's as slugs. 
+
+I only returned two paths to be built in getStaticPaths:
+
+```
+export const getStaticPaths = async() => {
+```
+
+```
+    // How many posts should we preload?
+```
+
+```
+    const maxPosts = 2;
+```
+
+```
+    // Using node-fetch let's pre-render the first 5 pages/paths
+```
+
+```
+    const res = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=' + process.env.TMDB_API_KEY + '&language=en-US&page=1')
+```
+
+```
+    const moviesRaw = await res.json();
+```
+
+```
+    const movies = moviesRaw.results.slice(0,maxPosts);
+```
+
+```
+    const moviePaths = movies.map(movie => ({
+```
+
+```
+        params: {
+```
+
+```
+            slug: movie.id.toString()
+```
+
+```
+        }
+```
+
+```
+    }));
+```
+
+```
+    return {
+```
+
+```
+        paths: moviePaths,
+```
+
+```
+        fallback: true
+```
+
+```
+    }
+```
+
+```
+}
+```
+
+And as you can see, fallback true is set. 
+
+In my getStaticProps I receive this slug and load the individual movie content. When I was setting this up, and before I had setup any fetch requests, I put a console.log() in here. And while running the development server, noticed it got called twice. This is expected and also outlined in the document. 
+
+Early on this told me that any additional pages requiring loading wouldn't occur on a static site host like Netlify (which is what I am using). 
+
+After building and deploying if you click on the third item at /movies it will generate a 404. As per the build log below. It shows under /movies/\[slug] that only the first two have been generated.
+
+![Build log](/uploads/build-log.png)
+
+I'm guessing this does get run on the server side? I am yet to test this, I tried running npm start however I'm currently facing a little error at the moment.
+
+It works fine in my development server, but that will call getStaticProps on every single request, so it would be a far better test when NextJS is running in production. 
+
+I'll try this in a few hours.
