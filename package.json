@@ -19,6 +19,7 @@
     "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "dotenv-webpack": "^1.7.0",
     "var_dump": "^1.0.5"
   }
 }
