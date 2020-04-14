@@ -44,7 +44,7 @@ Let's see how I go!
 
 I managed to test this one, and can confirm that fallback: true doesn't apply when your server can only statically generate pages. 
 
-I created a movies single and l[isting page](https://www.damoq.com/movies) where I use TMDB to pull movies and use their id's as slugs. 
+I created a movies single and [listing page](/movies) where I use TMDB to pull movies and use their id's as slugs. 
 
 I only returned two paths to be built in getStaticPaths:
 
