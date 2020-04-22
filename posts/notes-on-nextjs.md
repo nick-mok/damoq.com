@@ -40,11 +40,13 @@ And if it needs to run NextJS in the background... might not be possible in a st
 
 Let's see how I go!
 
+
+
 \--- **UPDATE: 1PM** ---
 
 I managed to test this one, and can confirm that fallback: true doesn't apply when your server can only statically generate pages. 
 
-I created a movies single and l[isting page](https://www.damoq.com/movies) where I use TMDB to pull movies and use their id's as slugs. 
+I created a movies single and [listing page](/movies) where I use TMDB to pull movies and use their id's as slugs. 
 
 I only returned two paths to be built in getStaticPaths:
 
@@ -65,7 +67,11 @@ export const getStaticPaths = async() => {
 ```
 
 ```
-    const res = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=' + process.env.TMDB_API_KEY + '&language=en-US&page=1')
+    const res = await fetch('https://api.themoviedb.org/3/movie/popular?api_key=' + 
+```
+
+```
+    process.env.TMDB_API_KEY + '&language=en-US&page=1')
 ```
 
 ```
@@ -131,3 +137,19 @@ I'm guessing this does get run on the server side? I am yet to test this, I trie
 It works fine in my development server, but that will call getStaticProps on every single request, so it would be a far better test when NextJS is running in production. 
 
 I'll try this in a few hours.
+
+\-- **Update April 15, 2020** --
+
+I did manage to test this yesterday, I didn't have time to make a post. I managed to run this test in a production environment using **next build** (prepare it for production) and then **next start** (run in a production environment) ****and the additional pages indeed briefly show the fallback message I have in my `getStaticProps ` and then loads from the API, so this must be a server side call. Once, all subsequent requests after loading an additional route for the first time loads without showing the fallback message. This they did mention in the documentation: 
+
+> Instead, you may statically generate a small subset of pages and use fallback: true for the rest. When someone requests a page that’s not generated yet, the user will see the page with a loading indicator. Shortly after, getStaticProps finishes and the page will be rendered with the requested data. 
+>
+> **From now on, everyone who requests the same page will get the statically pre-rendered page.**
+>
+>  
+>
+> [_https://nextjs.org/docs/basic-features/data-fetching#the-fallback-key-required_](https://nextjs.org/docs/basic-features/data-fetching#the-fallback-key-required)
+>
+>
+
+This would definitely come in handy, and I'd certainly like to see some examples of it in use!
