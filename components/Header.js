@@ -18,12 +18,19 @@ export const Header = (props) => (
                         </Link>
                     </li>
                     <li className="nav-link mx-1 p-0">
+                        <Link href="/portfolio">
+                            <a className="d-block nav-link lead text-white bg-primary">Portfolio</a>
+                        </Link>
+                    </li>
+                    <li className="nav-link mx-1 p-0">
                         <Link href="/blog">
                             <a className="d-block nav-link lead text-white bg-primary">Blog</a>
                         </Link>
                     </li>
+                    
                 </ul>
             </div>
+            
         </div>
     </div>
 );
