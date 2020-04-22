@@ -1,11 +1,9 @@
 import Layout from '../components/MyLayout';
 import Link from 'next/link';
 
-
-
 export const Portfolio = (props) =>
    <Layout pageTitle="Portfolio">
-       <h1>Portfolio</h1>
+       <h1 className="h3 primary-text">Portfolio</h1>
        <p className="lead">Showcasing anything I've worked on, big or small.</p>
        <ul>
             <li>
