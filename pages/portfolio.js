@@ -6,7 +6,7 @@ export const Portfolio = (props) =>
        <h1 className="h3 primary-text">Portfolio</h1>
        <p className="lead">Showcasing anything I've worked on, big or small.</p>
        <ul>
-            <li>
+            <li key="slug">
                 <Link href="/slug">
                     <a>Slugify</a>
                 </Link>
