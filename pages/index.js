@@ -5,8 +5,10 @@ import fs from 'fs';
 
 const HomeContent = (props) => (
   <>
-    <h1 className="h3 primary-text">Hello there, I'm Nick!</h1>
-    <p>Nothing in this space yet, maybe check out my blog!</p>
+    <h1 className="h3 primary-text">Home of Nick</h1>
+    <p>This is a little space for me to quickly add Blog or Portfolio posts about any tech I am working on!</p>
+    <p>This website is a statically generated site, created using React, <Link href="https://www.nextjs.org"><a>NextJS</a></Link> and <Link href="https://www.netlify.com/">Netlify</Link> for continuous deployment.</p>
+    <p>The code for this site is publicly available via <Link href="https://github.com/nick-mok/damoq.com"><a>GitHub</a></Link></p>  
   </>
 );
 
