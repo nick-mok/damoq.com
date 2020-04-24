@@ -7,8 +7,8 @@ const HomeContent = (props) => (
   <>
     <h1 className="h3 primary-text">Home of Nick</h1>
     <p>This is a little space for me to quickly add Blog or Portfolio posts about any tech I am working on!</p>
-    <p>This website is a statically generated site, created using React, <Link href="https://www.nextjs.org"><a>NextJS</a></Link> and <Link href="https://www.netlify.com/">Netlify</Link> for continuous deployment.</p>
-    <p>The code for this site is publicly available via <Link href="https://github.com/nick-mok/damoq.com"><a>GitHub</a></Link></p>  
+    <p>This website is a statically generated site, created using React, <a href="https://www.nextjs.org" target="_blank">NextJS</a> and <a href="https://www.netlify.com/" target="_blank">Netlify</a> for continuous deployment.</p>
+    <p>The code for this site is publicly available via <a href="https://github.com/nick-mok/damoq.com" target="_blank">GitHub</a></p>  
   </>
 );
 
