@@ -12,6 +12,16 @@ export const Portfolio = (props) =>
                 </Link>
                 <p className="small">While it is nothing complex, this little tool takes a string, and in real-time turns it into a usable slug path.</p>                
             </li>
+            <li key="mimis">
+                <a href="https://flamboyant-payne-41a873.netlify.app/" target="_blank">
+                    Demo of React, Bootstrap, NextJS theme
+                </a>
+                &nbsp; - &nbsp; 
+                <a href="https://github.com/nick-mok/theme-mimis" target="_blank">
+                    GitHub Repo
+                </a>
+                <p className="small">This one is currently a work in progress. Developing a website theme which I may use for future projects.</p>
+            </li>
        </ul>
    </Layout>
 
