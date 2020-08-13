@@ -31,7 +31,9 @@ body p {
 }
 
 #main img {
-    max-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: #2c3e50 0 2px 3px;
 }
 
 @media only screen and (min-width: 769px) {
