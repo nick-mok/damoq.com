@@ -30,6 +30,17 @@ body p {
     padding: 10px;
 }
 
+#main img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+    #main img {
+        max-width: 500px;
+    }
+}
+
+
 #main blockquote {
     padding: 20px 30px;
     margin: 2rem 0;
