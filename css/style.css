@@ -37,9 +37,15 @@ body p {
 @media only screen and (min-width: 769px) {
     #main img {
         max-width: 500px;
+        display: block;
+        margin: 0px auto;
+     
     }
 }
-
+img[src*="#blog-image"] {
+    display: block; 
+    margin: 0px auto;
+}
 
 #main blockquote {
     padding: 20px 30px;
