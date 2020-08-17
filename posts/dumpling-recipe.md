@@ -2,7 +2,7 @@
 title: Dumpling Recipe
 date: 2020-08-12T07:58:21.655Z
 ---
-![Dumpling ingredients](/uploads/dumpling-ingredients-photo.jpg#blog-image)
+![Dumpling banner](/uploads/dumpling-banner.jpg#blog-image)
 
 ## The dumplings
 
@@ -21,12 +21,9 @@ Ingredients list:
 Method:
 
 1. Put pork mince in a bowl with the Salt, Pepper, Ginger, Chives, Cabbage, Soy, Shaoxing, Sesame Oil
-**Tip:** As I haven't quite worked out the exact weight of cabbage to use, add the cabbage in portions while mixing to find a nice balance of it among the meat.
-
+   **Tip:** As I haven't quite worked out the exact weight of cabbage to use, add the cabbage in portions while mixing to find a nice balance of it among the meat.
 2. Mix well
-
 3. Get a spoon and spoon out some mince and start packing your wrappers. But with enough room so you can fold the wrapper in half without much trouble
-
 4. Dip your finger in some corn starch-y water and trace a semi-circle along the edge of the pastry
 
 ![](/uploads/meat-in-wrapper.jpg)
@@ -43,9 +40,11 @@ Method:
    _Cooking in boiled water, steam pot will take around 5 to 8 minutes_
 
 ## The soup
+
 Dumplings, Soup and Noodles are best cooked separate to each other. I find this just makes it easier to better manage the flavours and helps with time-keeping.
 
 Ingredients List:
+
 * 2 cups of chicken stock and 2 cups of water (1:1 ratio, but you can extend the water)
 * 1 tsp of Garlic (minced)
 * 1 tsp of Ginger (minced)
@@ -59,17 +58,18 @@ Ingredients List:
 * 1 to 2 Bunches of Chinese Broccoli 
 
 Method:
+
 1. In a pot on medium to high heat saute garlic and ginger with vegetable oil. 3 to 4 minutes.
 2. Pour in the liquids, Salt and Pepper. If using Rice Wine Vinegar, you may add 1 tsp of sugar to round out it's sharp flavour.
 3. Once the dumplings are near or ready add the Bok Choy and Chinese Broccoli into the soup and let it cook for 2 minutes or until tender or your liking
 
 ## The Noodles
+
 Noodles are totally optional, but it makes it feel like a complete meal. I usually will cook the noodles separate to the soup because of the starch that comes off them. I've read this will only happen in larger portions and with thicker noodle types. Yet to make this risk for science.
 You can use any kind of noodle for this. Here's a list of ones I like to use:
+
 * Glass Noodles
 * Rice Vermicelli, Rice Stick Noodles or any Rice Noodle
 * Udon Noodles
 
 I personally prefer Rice Noodles because I enjoy their plain flavour with the soup.
-
- 
