@@ -50,7 +50,7 @@ Ingredients List:
 * 1 tsp of Garlic (minced)
 * 1 tsp of Ginger (minced)
 * 2 tbsp of Light Soy Sauce
-* 1/2 to 1 tsp of Rice Wine Vinegar or Apple Cider vinegar
+* 1/2 to 1 tsp of Rice Wine Vinegar or Apple Cider Vinegar
 * 1 tsp of Sesame Oil
 * 1 tbsp of Vegetable Oil
 * 1 tsp Salt
