@@ -41,13 +41,16 @@ body p {
         max-width: 500px;
         display: block;
         margin: 0px auto;
-     
+    }
+    #main img[src*="#blog-image"] {
+        display: block; 
+        margin: 0px auto;
+        box-shadow: unset;
+        border-radius: 0;
+        max-width: 100%;
     }
 }
-img[src*="#blog-image"] {
-    display: block; 
-    margin: 0px auto;
-}
+
 
 #main blockquote {
     padding: 20px 30px;
