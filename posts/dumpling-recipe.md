@@ -20,10 +20,14 @@ Ingredients list:
 
 Method:
 
-1. Put pork mince in a bowl with the Salt, Pepper, Ginger, Chives, Cabbage, Soy, Shaoxing, Sesame Oil
-   **Tip:** As I haven't quite worked out the exact weight of cabbage to use, add the cabbage in portions while mixing to find a nice balance of it among the meat.
+1. Put pork mince in a bowl with the Salt, Pepper, Ginger, Chives, Cabbage, Soy, Shaoxing, Sesame Oil. 
+
+**Tip:** As I haven't quite worked out the exact weight of cabbage to use, add the cabbage in portions while mixing to find a nice balance of it among the meat.
+
 2. Mix well
+
 3. Get a spoon and spoon out some mince and start packing your wrappers. But with enough room so you can fold the wrapper in half without much trouble
+
 4. Dip your finger in some corn starch-y water and trace a semi-circle along the edge of the pastry
 
 ![](/uploads/meat-in-wrapper.jpg)
