@@ -7,6 +7,7 @@ const Layout = (props) => (
         <Head>
             <title>{props.pageTitle ? props.pageTitle + " - " : ""}Damoq</title>
             <meta name="yandex-verification" content="ffd1a1d3d375597c" />
+            <script type="text/javascript" src="https://www.bugherd.com/sidebarv2.js?apikey=eh78kk9psjjodbmr2pzzxw" async="true"></script>
         </Head>
         <Header />
         <Main>
