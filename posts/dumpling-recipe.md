@@ -7,7 +7,7 @@ date: 2020-08-12T07:58:21.655Z
 ## The dumplings
 
 Ingredients list:
-
+* 500g of Pork Mince
 * 1.5 tsp Salt
 * 1.5 tsp White pepper
 * 2 cm Ginger (diced)
