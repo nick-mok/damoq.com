@@ -8,8 +8,8 @@ date: 2020-08-12T07:58:21.655Z
 
 Ingredients list:
 * 500g of Pork Mince
-* 1.0 tsp Salt
-* 1.0 tsp White pepper
+* 1/2 tsp Salt
+* 1/4 tsp White pepper
 * 2 cm Ginger (diced)
 * 1 Fistful of Chinese Chives (diced)
 * 1/5th or 1/6th of half of chinese Cabbage (diced)
