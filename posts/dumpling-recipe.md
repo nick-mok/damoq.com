@@ -13,7 +13,7 @@ Ingredients list:
 * 2 cm Ginger (diced)
 * 1 Fistful of Chinese Chives (diced)
 * 1/5th or 1/6th of half of chinese Cabbage (diced)
-* 3 tbsp Light Soy Sauce
+* 2.5 tbsp Light Soy Sauce
 * 3 tbsp Shaoxing Wine (optional)
 * 1.5 tbsp of Sesame Oil
 * Dumpling pastry/wrappers. The ones I use are 8cm in diameter, yields around 50 dumplings
