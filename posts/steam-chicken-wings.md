@@ -22,12 +22,12 @@ One of my absolute favourite dishes, super simple yet so delicious.
 ## Instructions
 
 1. Cut up your chicken wings separating drums from wing. You can use the wing tips or give them to lilly
-2. In a large bowl throw in your chicken, spring onion, soy, water and salt and pepper
+2. In a large bowl throw in your Chicken, Spring onion, Soy, Water, Salt and Pepper
    ![](<>)
 
 ![](/uploads/20220519_175958.jpg)
 
-3. Mix it up hard 
+3. Mix
 4. Throw into your steaming dish
 5. \*\*Optional\*\*: let this marinate in the fridge for 20 mins or more. 
 6. Bring the steam pot to boil, place stand or bowl inside
@@ -37,15 +37,16 @@ One of my absolute favourite dishes, super simple yet so delicious.
 
 8. Steam for 7 minutes
 9. Turn the chicken pieces over and give it a mix around
-10. Steam for another 7 minutes or so
+10. Steam for another 7 minutes or so (lid still on)
 11. Pull the dish out and let it rest for 3 mins or
 12. Enjoy the juiciest chicken in the world
 
 ## Serving
 
-Serve chicken on boiled Rice and Boy Choy (1 min) or Broccolini (2 mins). \
-Splash your veggies and rice with the delicious juices from your cook up\
-Eat and try not to gag on the bones
+You can serve the chicken on boiled Rice and Boy Choy (1 min) or Broccolini (2 mins). \
+Splash your veggies and rice with the delicious juices from your cook up. But you can serve this with anything else or just have it around as a delicious protein snack :) \
+\
+Most importantly, eat this immediately and try not to gag on the bones.
 
 ## Ideas
 
