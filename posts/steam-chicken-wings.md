@@ -29,15 +29,15 @@ One of my absolute favourite dishes, super simple yet so delicious.
 
 3. Mix
 4. Throw into your steaming dish
-5. **Optional:** let this marinate in the fridge for 20 mins or more. 
+5. **Optional:** let this marinate in the fridge for 20 mins or more. I have never really planned this meal ahead of time, but you can leave marinating over night. 
 6. Bring the steam pot to boil, place stand or bowl inside
-7. Throw on your chicken dish and cover
+7. Throw your dish of chicken in your steamer and cover
 
 ![](/uploads/16529478772246409024813746127719.jpg)
 
 8. Steam for 7 minutes
 9. Turn the chicken pieces over and give it a mix around
-10. Steam for another 7 minutes or so (lid still on)
+10. Steam for another 7 minutes or so (lid back on)
 11. Pull the dish out and let it rest for 3 mins or
 12. Enjoy the juiciest chicken in the world
 
