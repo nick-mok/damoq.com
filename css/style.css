@@ -49,6 +49,9 @@ body p {
         border-radius: 0;
         max-width: 100%;
     }
+    #main ol li {
+        margin: 10px 0;
+    }
 }
 
 
