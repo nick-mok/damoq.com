@@ -27,7 +27,7 @@ date: 2022-05-19T07:45:21.030Z
 
 3. Mix it up hard 
 4. Throw into your steaming dish
-5. Optional\*\*: let this marinate in the fridge for 20 mins or more. 
+5. \*\*Optional\*\*: let this marinate in the fridge for 20 mins or more. 
 6. Bring the steam pot to boil, place stand or bowl inside
 7. Throw on your chicken dish and cover
 
