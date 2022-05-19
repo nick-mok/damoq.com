@@ -6,7 +6,7 @@ date: 2022-05-19T07:45:21.030Z
 
 ![](/uploads/16529491859538073066207835828017.jpg#blog-image)
 
-One of my absolute favourite dishes, super simple yet so delicious. 
+One of my absolute favourite dishes. Super simple yet so delicious. 
 
 ## Ingredients for main dish
 
