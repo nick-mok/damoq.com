@@ -29,7 +29,7 @@ One of my absolute favourite dishes, super simple yet so delicious.
 
 3. Mix
 4. Throw into your steaming dish
-5. \*\*Optional\*\*: let this marinate in the fridge for 20 mins or more. 
+5. **Optional:** let this marinate in the fridge for 20 mins or more. 
 6. Bring the steam pot to boil, place stand or bowl inside
 7. Throw on your chicken dish and cover
 
@@ -51,4 +51,4 @@ Most importantly, eat this immediately and try not to gag on the bones.
 ## Ideas
 
 A splash of sesame oil make this delicious\
-1x Birds eye chill or even the mild big chilli sliced julienne goes really well with this
+1 x Birds eye chill or even the mild big chilli sliced julienne goes really well with this
