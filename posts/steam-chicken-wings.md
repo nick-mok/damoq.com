@@ -19,7 +19,7 @@ date: 2022-05-19T07:45:21.030Z
 
 ## Instructions
 
-1. Cut up your chicken wings separating drums from wing. You can use the wing tips or give them to kitty
+1. Cut up your chicken wings separating drums from wing. You can use the wing tips or give them to lilly
 2. In a large bowl throw in your chicken, spring onion, soy, water and salt and pepper
    ![](<>)
 
