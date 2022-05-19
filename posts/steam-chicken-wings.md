@@ -2,6 +2,10 @@
 title: Steam chicken wings
 date: 2022-05-19T07:45:21.030Z
 ---
+## 
+
+![](/uploads/16529491859538073066207835828017.jpg#blog-image)
+
 ## Ingredients for main dish
 
 * 500g x **Chicken wings** (or however much fits in your steam dish)
@@ -16,29 +20,26 @@ date: 2022-05-19T07:45:21.030Z
 ## Instructions
 
 1. Cut up your chicken wings separating drums from wing. You can use the wing tips or give them to kitty
-
 2. In a large bowl throw in your chicken, spring onion, soy, water and salt and pepper
-![](<>)
+   ![](<>)
 
 ![](/uploads/20220519_175958.jpg)
 
 3. Mix it up hard 
-
 4. Throw into your steaming dish
 
-**5. Optional**: let this marinate in the fridge for 20 mins or more. 
+5. Optional**: let this marinate in the fridge for 20 mins or more. 
 
 6. Bring the steam pot to boil, place stand or bowl inside
-
 7. Throw on your chicken dish and cover
 
 ![](/uploads/16529478772246409024813746127719.jpg)
 
 8. Steam for 7 minutes\
 9. Turn the chicken pieces over and give it a mix around\
-8. Steam for another 7 minutes or so\
-9. Pull the dish out and let it rest for 3 mins or\
-10. Enjoy the juiciest chicken in the world
+10. Steam for another 7 minutes or so\
+11. Pull the dish out and let it rest for 3 mins or\
+12. Enjoy the juiciest chicken in the world
 
 ## Serving
 
