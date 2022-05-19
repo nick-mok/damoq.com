@@ -6,12 +6,14 @@ date: 2022-05-19T07:45:21.030Z
 
 ![](/uploads/16529491859538073066207835828017.jpg#blog-image)
 
+One of my absolute favourite dishes, super simple yet so delicious. 
+
 ## Ingredients for main dish
 
 * 500g x **Chicken wings** (or however much fits in your steam dish)
 * 2cm cube x **Ginger** (chopped into match sticks)
 * 1/3 cup x **Light soy sauce**
-* 1 tbsp x of **Water** (Or Shaoxing wine/ Chicken stock)
+* 1 tbsp x of **Water** (Or Shaoxing wine/ Chicken stock) 
 * 1/2 tsp x **White pepper**
 * 1 tsp x **Salt**
 * 1 cup x **Spring onion** (sliced diagonally)\
