@@ -7,16 +7,17 @@ date: 2020-08-12T07:58:21.655Z
 ## The dumplings
 
 Ingredients list:
+
 * 500g of Pork Mince
 * 1/2 tsp Salt
 * 1/2 tsp White pepper
 * 2 cm Ginger (diced)
-* 1 Fistful of Chinese Chives (diced)
+* 1 cup of Chinese Chives (diced)
 * 1/5th or 1/6th of half of chinese Cabbage (diced)
 * 2.5 tbsp Light Soy Sauce
 * 3 tbsp Shaoxing Wine (optional)
 * 1.5 tbsp of Sesame Oil
-* Dumpling pastry/wrappers. The ones I use are 8cm in diameter, yields around 50 dumplings
+* Dumpling wrappers. I use (Double Merinos Gow Gee)
 
 Method:
 
@@ -25,9 +26,7 @@ Method:
 **Tip:** As I haven't quite worked out the exact weight of cabbage to use, add the cabbage in portions while mixing to find a nice balance of it among the meat.
 
 2. Mix well
-
 3. Get a spoon and spoon out some mince and start packing your wrappers. But with enough room so you can fold the wrapper in half without much trouble
-
 4. Dip your finger in some corn starch-y water and trace a semi-circle along the edge of the pastry
 
 ![](/uploads/meat-in-wrapper.jpg)
@@ -41,9 +40,9 @@ Method:
 ![](/uploads/dumpling-final.jpg)
 
 7. (optional) I like to wrap a dumpling then cook it to test if further additions are required (eg. More soy, more pepper etc).
-   _Cooking in boiled water, steam pot will take around 5 to 8 minutes_
+   *Cooking in boiled water, steam pot will take around 5 to 8 minutes (raw). Frozen takes around 14+ mins.* 
 
-## The soup
+## The soup (optional)
 
 Dumplings, Soup and Noodles are best cooked separate to each other. I find this just makes it easier to better manage the flavours and helps with time-keeping.
 
